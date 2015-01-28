@@ -48,7 +48,7 @@
     [self.beerPercentTextField resignFirstResponder];
     
     NSInteger beerText = sender.value;
-    self.beerLabel.text = [NSString stringWithFormat:NSLocalizedString(@"%ld", beerText)];
+    self.beerLabel.text = [NSString stringWithFormat:@"%i", beerText];
 }
 
 - (IBAction)buttonPressed:(UIButton *)sender {
