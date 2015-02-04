@@ -7,8 +7,15 @@
 //
 
 #import "AppDelegate.h"
+#import "ViewController.h"
+#import "WhiskeyViewController2.h"
 
-@interface AppDelegate ()
+//For Navigation Controller but not tabbed controller
+//#import "MainMenuViewController.h"
+
+@interface AppDelegate () <UITextFieldDelegate>
+
+@property UITabBarController *tabBarVC;
 
 @end
 
@@ -16,9 +23,45 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    
+//    Navigation Controller Here
+    
+//    MainMenuViewController *mainMenuViewController = [[MainMenuViewController alloc] init];
+//    UINavigationController *navigationController = [[UINavigationController alloc] initWithRootViewController:mainMenuViewController];
+//    
+//    self.window.rootViewController = navigationController;
+
+    //Navigation Controller Ends Here
+    
+    
+    //Tabbed View Controller Here
+    
+    ViewController *wineVC = [[ViewController alloc] init];
+    WhiskeyViewController2 *whiskeyVC = [[WhiskeyViewController2 alloc] init];
+    UITabBarController *tabBarVC = [[UITabBarController alloc] init];
+    tabBarVC.viewControllers = @[wineVC, whiskeyVC];
+    
+    self.window.rootViewController = tabBarVC;
+    
+    //Following for Delegate Assignment
+    
+//    self.tabBarVC = [[UITabBarController alloc] init];
+//    self.tabBarVC.delegate = self;
+//    self.tabBarVC.viewControllers = @[wineVC, whiskeyVC];
+    
+    //End of Delegate Assigment
+    
+    
+    //Tabbed View Controller Ends Here
+    
+    [self.window makeKeyAndVisible];
     return YES;
 }
+
+//- (void) tabBarController:didSelectViewController: {
+//    
+//}
 
 - (void)applicationWillResignActive:(UIApplication *)application {
     // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.

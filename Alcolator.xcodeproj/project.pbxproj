@@ -7,10 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		576018151A79ECB2005D6ACE /* WhiskeyViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = 576018141A79ECB2005D6ACE /* WhiskeyViewController2.m */; };
+		576CE2401A7B10C000205326 /* MainMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 576CE23F1A7B10C000205326 /* MainMenuViewController.m */; };
 		578E00EB1A75787F00B7E861 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 578E00EA1A75787F00B7E861 /* main.m */; };
 		578E00EE1A75787F00B7E861 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 578E00ED1A75787F00B7E861 /* AppDelegate.m */; };
 		578E00F11A75787F00B7E861 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 578E00F01A75787F00B7E861 /* ViewController.m */; };
-		578E00F41A75787F00B7E861 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 578E00F21A75787F00B7E861 /* Main.storyboard */; };
 		578E00F61A75787F00B7E861 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 578E00F51A75787F00B7E861 /* Images.xcassets */; };
 		578E00F91A75787F00B7E861 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 578E00F71A75787F00B7E861 /* LaunchScreen.xib */; };
 		578E01051A75787F00B7E861 /* AlcolatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 578E01041A75787F00B7E861 /* AlcolatorTests.m */; };
@@ -27,6 +28,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		576018131A79ECB2005D6ACE /* WhiskeyViewController2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WhiskeyViewController2.h; sourceTree = "<group>"; };
+		576018141A79ECB2005D6ACE /* WhiskeyViewController2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WhiskeyViewController2.m; sourceTree = "<group>"; };
+		576CE23E1A7B10C000205326 /* MainMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainMenuViewController.h; sourceTree = "<group>"; };
+		576CE23F1A7B10C000205326 /* MainMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainMenuViewController.m; sourceTree = "<group>"; };
 		578E00E51A75787F00B7E861 /* Alcolator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Alcolator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		578E00E91A75787F00B7E861 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		578E00EA1A75787F00B7E861 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -34,7 +39,6 @@
 		578E00ED1A75787F00B7E861 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		578E00EF1A75787F00B7E861 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		578E00F01A75787F00B7E861 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		578E00F31A75787F00B7E861 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		578E00F51A75787F00B7E861 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		578E00F81A75787F00B7E861 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		578E00FE1A75787F00B7E861 /* AlcolatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AlcolatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -85,7 +89,10 @@
 				578E00ED1A75787F00B7E861 /* AppDelegate.m */,
 				578E00EF1A75787F00B7E861 /* ViewController.h */,
 				578E00F01A75787F00B7E861 /* ViewController.m */,
-				578E00F21A75787F00B7E861 /* Main.storyboard */,
+				576018131A79ECB2005D6ACE /* WhiskeyViewController2.h */,
+				576018141A79ECB2005D6ACE /* WhiskeyViewController2.m */,
+				576CE23E1A7B10C000205326 /* MainMenuViewController.h */,
+				576CE23F1A7B10C000205326 /* MainMenuViewController.m */,
 				578E00F51A75787F00B7E861 /* Images.xcassets */,
 				578E00F71A75787F00B7E861 /* LaunchScreen.xib */,
 				578E00E81A75787F00B7E861 /* Supporting Files */,
@@ -199,7 +206,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				578E00F41A75787F00B7E861 /* Main.storyboard in Resources */,
 				578E00F91A75787F00B7E861 /* LaunchScreen.xib in Resources */,
 				578E00F61A75787F00B7E861 /* Images.xcassets in Resources */,
 			);
@@ -220,8 +226,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				578E00F11A75787F00B7E861 /* ViewController.m in Sources */,
+				576018151A79ECB2005D6ACE /* WhiskeyViewController2.m in Sources */,
 				578E00EE1A75787F00B7E861 /* AppDelegate.m in Sources */,
 				578E00EB1A75787F00B7E861 /* main.m in Sources */,
+				576CE2401A7B10C000205326 /* MainMenuViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -244,14 +252,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		578E00F21A75787F00B7E861 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				578E00F31A75787F00B7E861 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		578E00F71A75787F00B7E861 /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -346,6 +346,7 @@
 				INFOPLIST_FILE = Alcolator/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -356,6 +357,7 @@
 				INFOPLIST_FILE = Alcolator/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
